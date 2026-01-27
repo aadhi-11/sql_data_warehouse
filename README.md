@@ -1,29 +1,82 @@
-# 📊 Data Warehouse & Analytics Project (MS SQL Server)
+# 📊 Modern Data Warehouse & Analytics Project (MS SQL Server)
 
-This repository contains a **Data Warehouse and Analytics system** built using **MS SQL Server**, following the **Medallion Architecture (Bronze–Silver–Gold)** with a **robust ETL pipeline** to deliver analytics-ready data.
+This repository showcases a **modern data warehouse and analytics system** built using **MS SQL Server**, following the **Medallion Architecture (Bronze–Silver–Gold)** with a robust **ETL pipeline** to ingest, transform, and deliver analytics-ready data.
+---
 
-## 🚀 Project Overview
-The goal of this project is to design and implement an **end-to-end data warehouse** that ingests raw data from **CRM and ERP source systems (CSV files)**, applies structured transformations, and serves clean, business-ready datasets for analytics and reporting.
+## 📖 Project Overview
 
-The project is inspired by and structured similarly to the **Bara Data Warehouse Project**, following industry-standard data engineering practices.
+This project involves:
+
+- **Data Architecture**: Designing a modern data warehouse using Medallion Architecture (Bronze, Silver, Gold layers).
+- **ETL Pipelines**: Extracting, transforming, and loading data from CRM and ERP source systems (CSV files).
+- **Data Modeling**: Building fact and dimension tables optimized for analytical queries.
+- **Analytics & Reporting**: Developing SQL-based reports and insights for business decision-making.
+
+🎯 This repository demonstrates practical expertise in:
+
+- SQL Development  
+- Data Engineering  
+- Data Architecture  
+- ETL Pipeline Development  
+- Data Modeling  
+- Data Analytics  
+
+---
+
+## 🚀 Project Requirements
+
+### 1) Data Warehouse Development
+**Objective**  
+Design and implement a modern data warehouse using SQL Server to consolidate sales data and enable analytical reporting.
+
+**Specifications**
+
+- **Data Sources**: CRM and ERP systems (CSV files)
+- **Data Quality**: Cleansing and resolving data quality issues before analysis
+- **Integration**: Unified, analytics-friendly data model combining multiple sources
+- **Scope**: Latest dataset only (no historization)
+- **Documentation**: Clear data model documentation for business and analytics teams
+
+---
+
+### 2) Analytics & Reporting 
+
+**Objective**  
+Develop SQL-based analytics to generate insights into:
+
+- Customer Behavior  
+- Product Performance  
+- Sales Trends  
+
+These insights help stakeholders understand key business metrics and support strategic decision-making.
+
+---
 
 ## 🏗️ Architecture
-- **Bronze Layer**: Raw ingestion of CRM & ERP CSV data
-- **Silver Layer**: Data cleansing, standardization, and transformation
-- **Gold Layer**: Curated, analytics-ready fact and dimension tables
 
-## 🔄 ETL Pipeline
-- Automated ingestion of source CSV files  
-- Data validation and transformation using SQL  
-- Layered data flow aligned with Medallion architecture  
-- Optimized for analytical queries and BI consumption  
+- **Bronze Layer**: Raw ingestion of CRM & ERP data  
+- **Silver Layer**: Data cleansing, transformation, and standardization  
+- **Gold Layer**: Curated fact and dimension tables for analytics  
+
+---
 
 ## 🧰 Tech Stack
+
 - **Database**: MS SQL Server  
-- **ETL**: SQL-based transformations  
-- **Data Sources**: CRM & ERP (CSV extracts)  
-- **Modeling**: Dimensional modeling (Facts & Dimensions)
+- **ETL & Transformation**: SQL  
+- **Data Sources**: CRM & ERP (CSV files)  
+- **Modeling**: Dimensional Modeling (Facts & Dimensions)  
+
+---
 
 ## 📈 Outcome
-A scalable and maintainable **data warehouse foundation** suitable for analytics, dashboards, and business insights.
 
+A scalable, maintainable, and analytics-ready data warehouse system designed to support business intelligence, reporting, and data-driven decision-making.
+
+## About Me
+
+I'm Adithyadas US  a cloud Data engineer 
+
+---
+
+⭐ This project reflects real-world data engineering practices and serves as a strong portfolio project for data engineering and analytics roles.
